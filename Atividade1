@@ -1,0 +1,145 @@
+//. Variáveis
+var nome = "Gabriel"
+var idade = 25
+
+// Declarar primeira e segunda variável e printar na tela.
+
+console.log("Meu nome é ", nome," e tenho ", idade," de idade.")
+
+//. Variáveis
+
+nome = "Gabriel"
+cidade = "Recife"
+
+//. Printar na tela as duas Strings
+
+console.log(nome,"mora em",cidade)
+
+//. Variáveis
+
+num1 = 1
+num2 = 2
+var resultado
+
+//. Realiza as 4 operações basicas.
+
+resultado = num1 + num2
+
+console.log(num1,"+",num2,"=",resultado)
+
+resultado = num1 - num2
+
+console.log(num1,"+",num2,"=",resultado)
+
+resultado = num1 * num2
+
+console.log(num1,"+",num2,"=",resultado)
+
+resultado = num1 / num2
+
+console.log(num1,"+",num2,"=",resultado)
+
+//. Variáveis
+
+base = 2.00
+altura = 1.50
+var area
+
+//. Calculo de área de um triangulo
+
+area = (base * altura)
+
+console.log("A área do triângulo é", area.toFixed(2))
+
+//. Variáveis
+
+nota1 = 6
+nota2 = 8
+nota3 = 7
+var media
+
+// Calculo de média escolar
+
+media = (nota1+nota2+nota3) / 3 
+
+if(media>=6){
+
+    console.log("Sua média é", media.toFixed(2),". Aprovado!")
+}else{
+
+    console.log("Sua média é", media.toFixed(2),". Reprovado!")
+
+}
+
+// Variáveis
+
+preço = 120.00
+desconto = 12
+var valordesconto
+var novopreço
+
+// Calculo de desconto
+
+valordesconto = (preço*desconto) / 100
+
+novopreço = preço - valordesconto
+
+console.log("O preço original é", preço.toFixed(2),"com", desconto,"% de desconto fica", novopreço.toFixed(2),"reais. Você economizou", valordesconto.toFixed(2),"reais.")
+
+
+// Variáveis
+
+salario = 5236.85
+var contribuição
+
+
+//. Calculo basico de IR
+
+
+console.log("Calculo de IR")
+
+if(salario<=2112.00){
+
+    console.log("Seu salário é abaixo de 2.112,00. Você esta isento do IR.")
+
+    
+} else if (salario>=2112.01 && salario<=2826.66) {
+
+    contribuição = (salario * 7.5) / 100
+        console.log("Seu salário é entre 2.112,01 e 2826.66, a alicota é de 7,5%. Sua contribuição é de", contribuição.toFixed(2))
+    
+} else if  (salario>=2826.67 && salario<=3751.06){
+
+    contribuição = (salario * 15) / 100
+    console.log("Seu salário é entre 2.112,67, e 2.826,66, a alicota é de 15%. Sua contribuição é de", contribuição.toFixed(2))
+
+} else if (salario>=3751.07 && salario<=4664.68){
+
+    contribuição = (salario * 22.5) / 100
+    console.log("Seu salário é entre 3.751,71 e 4.664,68, a alicota é de 22,5%. Sua contribuição é de", contribuição.toFixed(2))
+
+}else if (salario>4664.68) {
+
+    contribuição = (salario * 27.5) / 100
+    console.log("Seu salário é acima de 4.664,68, a alicota é de 27,5%. Sua contribuição é de", contribuição.toFixed(2))
+
+} else {
+
+    console.log("Fim")
+}
+
+// Variáveis
+
+var valordolar = 1.00
+var valorreal = 5.43
+var valoreuro = 6.07
+var varlorconversao
+var valoraconverter
+
+// Coversor de moedas
+
+
+ console.log("Coversor de moedas")
+
+ 
+
